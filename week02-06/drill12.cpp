@@ -19,14 +19,14 @@ int main()
     try{
     	
 		int x_size = 600;
-		int y_size = 400; // ablak méretek
+		int y_size = 400; //ablak méretek
 		
 		Simple_window win{Point{100,100}, x_size, y_size, "Window"};
 		win.wait_for_button();
 
 		int xorigo = x_size/2;
 		int yorigo = y_size/2;
-		Point origo{xorigo, yorigo}; // origo
+		Point origo{xorigo, yorigo}; //origo
 		int xlength = x_size - 40;
 		int ylength = y_size - 40;
 		int x_scale = 10;
