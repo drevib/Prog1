@@ -37,9 +37,9 @@ try {
     for (int i = 0; i < x_size; i += x_grid) 
     {
         rect.push_back(new Rectangle{Point{i,i}, Point{i+x_grid,i+x_grid}});
-        rect[rects.size() - 1].set_color(Color::invisible);
-        rect[rects.size() - 1].set_fill_color(Color::red);
-        win.attach(rect[rects.size() - 1]);
+        rect[rect.size() - 1].set_color(Color::invisible);
+        rect[rect.size() - 1].set_fill_color(Color::red);
+        win.attach(rect[rect.size() - 1]);
     }
 
     win.wait_for_button();
