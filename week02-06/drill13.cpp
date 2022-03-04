@@ -44,16 +44,16 @@ try {
 
     win.wait_for_button();
 
-    Image img1 {Point{0,300}, "img.jpg"};
-    Image img2 {Point{300,600}, "img.jpg"};
-    Image img3 {Point{500,100}, "img.jpg"};
+    Image img1 {Point{0,300}, "./img.jpg"};
+    Image img2 {Point{300,600}, "./img.jpg"};
+    Image img3 {Point{500,100}, "./img.jpg"};
 
     win.attach(img1);
     win.attach(img2);
     win.attach(img3);
     win.wait_for_button();
 
-    Image pingu {Point{0,0}, "pingu.jpg"};
+    Image pingu {Point{0,0}, "./pingu.jpg"};
     win.attach(pingu);
     win.wait_for_button();
 
