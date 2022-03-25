@@ -19,7 +19,6 @@ private:
 
     
 
-
     void changec(Color c) { lines.set_color(c); }
     void changes(Line_style s) { lines.set_style(s); }
 
