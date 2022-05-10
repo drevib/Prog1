@@ -1,3 +1,3 @@
-# Magas szintű programozási nyelvek 1
+# Prog 1 :D
 
-Felhasznált irodalom és forráskódok: https://stroustrup.com/programming.html
+yup
